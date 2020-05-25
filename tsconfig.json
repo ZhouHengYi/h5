@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./built/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "target": "es5",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@src-modules":["./src-modules/*"],
+      "utils/*": ["./src/utils/*"],
+      "lib": ["dom", "es5", "es6", "es7", "esnext", "es2015.promise"],
+    }
+  },
+  "include": ["@declaration", "./src/**/*", "./src-modules/**/*"]
+}
