@@ -81,7 +81,7 @@
         "@sentry/browser": "^5.15.5",
         "@sentry/integrations": "^5.15.5",
         "amfe-flexible": "^2.2.1",
-        "axios": "^0.19.2",
+        "axios": "^0.21.1",
         "by-tools": "^1.1.29",
         "vconsole": "^3.3.4",
         "vue": "^2.6.11",
